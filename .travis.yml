@@ -9,6 +9,7 @@ install:
 script: pytest tests
 
 deploy:
+  skip_cleanup: true
   provider: pypi
   username: "__token__"
   password: "pypi-AgEIcHlwaS5vcmcCJDIzZjM1MWRmLTY4ZTQtNDRjMC1iYzA5LTVhZjIyZjlkYzJkNwACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYg-3_Mp3BSIxrtkbJZSvDNA5FRavMFbSRFsN6TZyqW1Vs"
