@@ -13,7 +13,6 @@ with open('LICENSE') as f:
 setup(
     name='pyfuncpiper',
     version='0.1.6',
-    description='Functional programming helper library',
     author='Dzhamal Abdulbasirov',
     author_email='dzamal26abdulbasirov@gmail.com',
     license=license,
