@@ -12,6 +12,6 @@ deploy:
   skip_cleanup: true
   provider: pypi
   username: "__token__"
-  password: "pypi-AgEIcHlwaS5vcmcCJDIzZjM1MWRmLTY4ZTQtNDRjMC1iYzA5LTVhZjIyZjlkYzJkNwACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYg-3_Mp3BSIxrtkbJZSvDNA5FRavMFbSRFsN6TZyqW1Vs"
+  password: "pypi-AgEIcHlwaS5vcmcCJDdhZTM1ODcwLWE3ODItNGNjNi1iODNhLTk3YWE4Njg3Y2Y1YQACPHsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJweWZ1bmNwaXBlciJdfSwgInZlcnNpb24iOiAxfQAABiAoGFupU7a1cp5HLhA8SqE_V_trhbFTHpqESAB5bVaU4Q"
   on:
     branch: master
