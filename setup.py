@@ -5,7 +5,7 @@ import codecs
 
 from setuptools import setup, find_packages
 
-with open('README.rst') as f:
+with open('README.md') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
@@ -13,14 +13,15 @@ with open('LICENSE') as f:
 
 
 def long_description():
-    with codecs.open('README.rst', encoding='utf8') as f:
+    with codecs.open('README.md', encoding='utf8') as f:
         return f.read()
 
 
 setup(
     name='pyfuncpiper',
-    version='0.1.9',
+    version='0.1.10',
     long_description=long_description(),
+    long_description_content_type='text/markdown',
     author='Dzhamal Abdulbasirov',
     author_email='dzamal26abdulbasirov@gmail.com',
     license=license,
