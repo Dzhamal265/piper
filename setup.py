@@ -11,8 +11,8 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='pypiper',
-    version='0.1.3',
+    name='pyfuncpiper',
+    version='0.1.4',
     description='Functional programming helper library',
     long_description=readme,
     long_description_content_type='text/markdown',
