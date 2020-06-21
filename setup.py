@@ -12,10 +12,8 @@ with open('LICENSE') as f:
 
 setup(
     name='pyfuncpiper',
-    version='0.1.5',
+    version='0.1.6',
     description='Functional programming helper library',
-    long_description=readme,
-    long_description_content_type='text/markdown',
     author='Dzhamal Abdulbasirov',
     author_email='dzamal26abdulbasirov@gmail.com',
     license=license,
