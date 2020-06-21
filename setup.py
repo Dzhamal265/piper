@@ -19,7 +19,7 @@ def long_description():
 
 setup(
     name='pyfuncpiper',
-    version='0.1.8',
+    version='0.1.9',
     long_description=long_description(),
     author='Dzhamal Abdulbasirov',
     author_email='dzamal26abdulbasirov@gmail.com',
