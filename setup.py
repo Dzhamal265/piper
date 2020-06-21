@@ -4,7 +4,7 @@
 
 from setuptools import setup, find_packages
 
-with open('README.md') as f:
+with open('README.rst') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 
 setup(
     name='pyfuncpiper',
-    version='0.1.4',
+    version='0.1.5',
     description='Functional programming helper library',
     long_description=readme,
     long_description_content_type='text/markdown',
