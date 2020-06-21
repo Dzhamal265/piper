@@ -11,10 +11,11 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='pyfuncpiper',
-    version='0.1.2',
-    description='re',
+    name='pypiper',
+    version='0.1.3',
+    description='Functional programming helper library',
     long_description=readme,
+    long_description_content_type='text/markdown',
     author='Dzhamal Abdulbasirov',
     author_email='dzamal26abdulbasirov@gmail.com',
     license=license,
